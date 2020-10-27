@@ -1,0 +1,9 @@
+.chat__field {
+  display: none;
+  width: 700px;
+  height: 780px;
+  background-color: white;
+  position: absolute;
+  right: 20px;
+  bottom: 140px;
+}

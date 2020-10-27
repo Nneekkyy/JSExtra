@@ -3,3 +3,7 @@
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/__rectangle/header__rectangle.css");
 @import url("../blocks/header/__top-fixed/header__top-fixed.css");
+@import url("../blocks/chat/chat.css");
+@import url("../blocks/chat/__button/chat__button.css");
+@import url("../blocks/chat/__field/chat__field.css");
+@import url("../blocks/chat/__field/_unhidden/chat__field_unhidden.css");

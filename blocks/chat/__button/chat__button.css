@@ -1,0 +1,13 @@
+.chat__button {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(196, 196, 196, 0.5);
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  background-image: url(../../../images/chat-button.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-radius: 8px;
+}
