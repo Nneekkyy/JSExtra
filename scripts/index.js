@@ -1,5 +1,9 @@
 const title = document.querySelector(".header__rectangle");
-const chat = document.querySelector(".chat__field");
+const chatField = document.querySelector(".chat__field");
+const chat = document.querySelector(".chat");
+const button = document.querySelector(".chat__button");
+
+
 
 function scrollHandler(event) {
   if (window.scrollY > 300 && window.scrollY < 1943) {
@@ -11,14 +15,40 @@ function scrollHandler(event) {
   }
 }
 
-function chatUnhidden() {
-  chat.classList.add("chat__field_unhidden");
+function showChat() {
+  chatField.classList.add('chat__field_unhidden');
 }
-// function chatHidden(event) {
-//   if (event.target.class != "chat__field") {
-//     chat.classList.remove("chat__field_unhidden");
-//   }
-// }
+
+function closeChat() {
+  chatField.classList.remove('chat__field_unhidden')
+}
+
+
+
+
 document.addEventListener('scroll', scrollHandler);
-document.addEventListener('click', chatUnhidden);
-document.addEventListener('click', chatHidden);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function popupClick(event) {
+   console.log('event.target:', event.target.className);
+   console.log('event.target:', event.target.classList);
+   console.log('event.currentTarget:', event.currentTarget);
+}
+document.addEventListener('click', popupClick);
