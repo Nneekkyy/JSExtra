@@ -20,6 +20,9 @@ window.addEventListener('scroll', scrollHandler)
 const chatField = document.querySelector(".chat__field");
 const chat = document.querySelector(".chat");
 const button = document.querySelector(".chat__button");
+let message = document.querySelector('.chat__input');
+let messages = document.querySelector('.chat__messages');
+
 
 function openChat() {
   chatField.classList.toggle('chat__field_unhidden');
@@ -37,8 +40,16 @@ function showChat(e) {
   }
 }
 
+function inputHandler(event) {
+  if (message.value && event.keyCode === 13) {
+    messages.insertAdjacentHTML('beforeend', `
+      <li class="chat__message"><span class="chat__span-accent">Ваше сообщение:</span> ${message.value}</li>
+    `);
+    message.value = '';
+  }
+}
 
-
+document.addEventListener('keyup', inputHandler);
 document.addEventListener('click', showChat);
 
 
