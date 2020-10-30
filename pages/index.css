@@ -7,4 +7,6 @@
 @import url("../blocks/chat/__button/chat__button.css");
 @import url("../blocks/chat/__field/chat__field.css");
 @import url("../blocks/chat/__field/_unhidden/chat__field_unhidden.css");
-@import url("../blocks/chat/__form/chat__form.css");
+@import url("../blocks/chat/__input/chat__input.css");
+@import url("../blocks/chat/__message/chat__message.css");
+@import url("../blocks/chat/__messages/chat__messages.css");

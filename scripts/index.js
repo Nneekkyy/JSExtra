@@ -1,8 +1,6 @@
-const title = document.querySelector(".header__rectangle");
-const chatField = document.querySelector(".chat__field");
-const chat = document.querySelector(".chat");
-const button = document.querySelector(".chat__button");
+// Задача 1
 
+const title = document.querySelector(".header__rectangle");
 let maxHeight = title.offsetTop;
 
 function scrollHandler() {
@@ -16,26 +14,32 @@ function scrollHandler() {
 
 window.addEventListener('scroll', scrollHandler)
 
+// Задача 2
 
-function scrolling(e) {
 
-  console.log(window.scrollY);
+const chatField = document.querySelector(".chat__field");
+const chat = document.querySelector(".chat");
+const button = document.querySelector(".chat__button");
+
+function openChat() {
+  chatField.classList.toggle('chat__field_unhidden');
 }
 
-document.addEventListener('scroll', scrolling);
+function closeChat() {
+  chatField.classList.remove('chat__field_unhidden');
+}
+
+function showChat(e) {
+  if (e.target === button) {
+    openChat()
+  } else if (e.target === chat) {
+    closeChat()
+  }
+}
 
 
 
+document.addEventListener('click', showChat);
 
 
-
-
-
-
-
-// function popupClick(event) {
-//    console.log('event.target:', event.target.className);
-//    console.log('event.target:', event.target.classList);
-//    console.log('event.currentTarget:', event.currentTarget);
-// }
-// document.addEventListener('click', popupClick);
+// Задача 3

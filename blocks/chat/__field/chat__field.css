@@ -1,9 +1,12 @@
 .chat__field {
   display: none;
-  width: 700px;
-  height: 780px;
+  width: 400px;
+  height: 450px;
   background-color: white;
   position: absolute;
   right: 20px;
   bottom: 140px;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 10px;
 }

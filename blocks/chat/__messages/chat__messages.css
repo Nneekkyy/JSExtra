@@ -1,0 +1,5 @@
+.chat__messages {
+  list-style-type: none;
+  padding: 0;
+  width: 400px;
+}

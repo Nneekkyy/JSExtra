@@ -1,0 +1,7 @@
+.chat__input {
+  margin: 0 auto;
+  width: 350px;
+  border-radius: 5px;
+  border-color: blue;
+  margin-bottom: 10px;  
+}
