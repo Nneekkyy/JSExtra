@@ -43,7 +43,7 @@ function showChat(e) {
 function inputHandler(event) {
   if (message.value && event.keyCode === 13) {
     messages.insertAdjacentHTML('beforeend', `
-      <li class="chat__message"><span class="chat__span-accent">Ваше сообщение:</span> ${message.value}</li>
+      <li class="chat__message"><span class="chat__system">Ваше сообщение:<br></span> ${message.value}</li>
     `);
     message.value = '';
   }
