@@ -10,3 +10,10 @@
 @import url("../blocks/chat/__input/chat__input.css");
 @import url("../blocks/chat/__message/chat__message.css");
 @import url("../blocks/chat/__messages/chat__messages.css");
+@import url("../blocks/coffee/coffee.css");
+@import url("../blocks/coffee/__button/coffee__button.css");
+@import url("../blocks/coffee/__image/coffee__image.css");
+@import url("../blocks/coffee/__list/coffee__list.css");
+@import url("../blocks/coffee/__name/coffee__name.css");
+@import url("../blocks/coffee/__title/coffee__title.css");
+@import url("../blocks/coffee/__type/coffee__type.css");

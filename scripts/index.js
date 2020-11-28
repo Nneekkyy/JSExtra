@@ -39,9 +39,10 @@ function showChat(e) {
     closeChat()
   }
 }
+const enterButton = 13;
 
 function inputHandler(event) {
-  if (message.value && event.keyCode === 13) {
+  if (message.value && event.keyCode === enterButton) {
     messages.insertAdjacentHTML('beforeend', `
       <li class="chat__message"><span class="chat__system">Ваше сообщение:<br></span> ${message.value}</li>
     `);
@@ -54,3 +55,15 @@ document.addEventListener('click', showChat);
 
 
 // Задача 3
+
+const coffeeOrder = document.querySelector(".coffee__order");
+const coffeeButton = document.querySelector(".coffee__button");
+
+function selectCoffee (event) {
+  if (event.target.classList.contains('coffee__button')) {
+    const cardContainer = event.target.parentElement.querySelector('.coffee__name');
+    coffeeOrder.textContent = cardContainer.textContent;
+  }
+};
+
+document.addEventListener ('click', selectCoffee)

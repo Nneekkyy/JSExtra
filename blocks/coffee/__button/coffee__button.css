@@ -1,0 +1,9 @@
+.coffee__button {
+  margin-top: 10px;
+  width: 150px;
+  height: 50px;
+  background-color: green;
+}
+.coffee__button:hover {
+  cursor: pointer;
+}
