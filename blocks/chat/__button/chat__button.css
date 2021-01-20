@@ -5,7 +5,7 @@
   position: absolute;
   right: 12px;
   bottom: 12px;
-  background-image: url(../../../images/chat-button.png);
+  background-image: url("../../../chat-button.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
