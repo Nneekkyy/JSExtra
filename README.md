@@ -9,3 +9,4 @@
 Совсем немного html, css и js. 
 
 #### Ссылка на Github Pages
+https://barrrsss.github.io/JSExtra/
