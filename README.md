@@ -6,7 +6,7 @@
 
 ### Функционал
 
-Совсем немного html, css и js. 
+решение задач при помощи JS 
 
 #### Ссылка на Github Pages
 https://barrrsss.github.io/JSExtra/
