@@ -9,4 +9,4 @@
 решение задач при помощи JS 
 
 #### Ссылка на Github Pages
-https://barrrsss.github.io/JSExtra/
+https://nneekkyy.github.io/JSExtra/
